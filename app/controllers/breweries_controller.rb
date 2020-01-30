@@ -31,6 +31,6 @@ class BreweriesController < ApplicationController
   end
 
   def brewery_params
-    params.permit(:city, :country)
+    params.permit(:name, :street, :city, :state, :zip, :dog_friendly, :outdoor, :park_nearby)
   end
 end

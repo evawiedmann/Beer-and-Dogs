@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-describe "get all reviews route", :type => :request do
-  let!(:reviews) { FactoryBot.create_list(:review, 20)}
+describe "get all breweries routes", :type => :request do
+  let!(:breweries) { FactoryBot.create_list(:brewery, 20)}
 
-  before { get '/reviews'}
+  before { get '/breweries'}
 
-  it 'returns all reviews' do
+  it 'returns all breweries' do
     expect(JSON.parse(response.body).size).to eq(20)
   end
 
