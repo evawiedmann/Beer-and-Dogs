@@ -28,7 +28,8 @@ gem 'faker'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 gem 'jquery-rails'
-# gem 'simple_command'
+gem 'simple_command'
+gem 'kaminari'
 # gem 'rswag'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
